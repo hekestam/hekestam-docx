@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 """|Document| and closely related objects"""
 
 from docx.blkcntnr import BlockItemContainer
