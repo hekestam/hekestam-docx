@@ -30,6 +30,7 @@ DESCRIPTION = "Create and update Microsoft Word .docx files."
 KEYWORDS = "docx office openxml word"
 AUTHOR = "Steve Canny/ H. Ekestam"
 AUTHOR_EMAIL = "python-docx@googlegroups.com"
+REQUIRES_PYTHON = '>=3.7.0'
 URL = "https://github.com/python-openxml/python-docx"
 LICENSE = text_of("LICENSE")
 PACKAGES = find_packages(exclude=["tests", "tests.*"])
@@ -69,6 +70,7 @@ params = {
     "author": AUTHOR,
     "author_email": AUTHOR_EMAIL,
     "url": URL,
+    'python_requires'=REQUIRES_PYTHON,
     "license": LICENSE,
     "packages": PACKAGES,
     "package_data": PACKAGE_DATA,
